@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2020_05_09_232927) do
 
   create_table "products", force: :cascade do |t|
     t.string "name"
-    t.boolean "fullsize"
+    t.boolean "full_size"
     t.text "notes"
     t.integer "brand_id", null: false
     t.integer "category_id", null: false

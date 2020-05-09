@@ -24,8 +24,8 @@ lipstick = Category.create(name: "Lipstick")
 ###Category.create(name: "")
 
 #Products
-thrive_mascara = Product.create(name: "Thrive Mascara", full_size: true, product_notes: "Good Mascara, easy to take off.", brand: tarte, category: mascara)
-love_trust_fairydust_palette = Product.create(name: "Love Trust & Fairy Dust Palette", full_size: true, product_notes: "", brand: tarte, category: eyeshadow_palettes)
-barbie_palette = Product.create(name: "Pur x Barbie Palette", full_size: true, product_notes: "", brand: pur , category: eyeshadow_palettes)
-barbie_lipstick_timeless = Product.create(name: "Pur x Barbie Timeless Lipstick", full_size: true, product_notes: "", brand: pur, category: lipstick)
-##Product.create(name: "", full_size: , product_notes: "", brand: , category: )
+thrive_mascara = Product.create(name: "Thrive Mascara", full_size: true, notes: "Good Mascara, easy to take off.", brand: tarte, category: mascara)
+love_trust_fairydust_palette = Product.create(name: "Love Trust & Fairy Dust Palette", full_size: true, notes: "", brand: tarte, category: eyeshadow_palettes)
+barbie_palette = Product.create(name: "Pur x Barbie Palette", full_size: true, notes: "", brand: pur , category: eyeshadow_palettes)
+barbie_lipstick_timeless = Product.create(name: "Pur x Barbie Timeless Lipstick", full_size: true, notes: "", brand: pur, category: lipstick)
+##Product.create(name: "", full_size: , notes: "", brand: , category: )
