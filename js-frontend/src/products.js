@@ -8,7 +8,10 @@ class Products {
 
     fetchProducts() {
         this.service.getProducts().then(products => {
-            console.log(products)
-        })
+        }).then(() => this.displayProducts() ) 
+    }
+
+    displayProducts() {
+        const productContainer = document.getElementById()
     }
 }
