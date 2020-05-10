@@ -3,5 +3,12 @@ class Products {
         this.products = []
         this.service = new ProductsService()
         this.bindEventListeners()
+        this.fetchProducts()
+    }
+
+    fetchProducts() {
+        this.service.getProducts().then(products => {
+            console.log(products)
+        })
     }
 }
