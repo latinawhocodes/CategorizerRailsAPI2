@@ -1,5 +1,7 @@
 class App {
     constructor() {
-        this.products = new Products()
+        this.apiURL = 'http://localhost:3000'
+        this.productsURL = '/products'
+        this.categoriesURL = '/categories'
     }
 }
