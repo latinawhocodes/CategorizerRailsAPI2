@@ -2,7 +2,7 @@ class CategoriesController < ApplicationController
 
     def index 
         @categories = Category.all 
-        render json: @categories, status:200
+        render json: @categories, include: [:products], status:200
     end
 
     def show 
